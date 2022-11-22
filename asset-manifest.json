@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dragAndDropPlanner/static/css/main.64874024.css",
+    "main.js": "/dragAndDropPlanner/static/js/main.633fe3ad.js",
+    "index.html": "/dragAndDropPlanner/index.html",
+    "main.64874024.css.map": "/dragAndDropPlanner/static/css/main.64874024.css.map",
+    "main.633fe3ad.js.map": "/dragAndDropPlanner/static/js/main.633fe3ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64874024.css",
+    "static/js/main.633fe3ad.js"
+  ]
+}
