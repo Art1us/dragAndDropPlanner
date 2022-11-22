@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.11",
+    "devexpress-diagram": "2.1.65",
+    "devexpress-gantt": "4.1.33",
+    "devextreme": "22.1.6",
+    "devextreme-quill": "1.5.18",
+    "devextreme-react": "22.1.6",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.4",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "7.4.11",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.0",
+    "prettier": "2.7.1",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "Appointment drag and drop is enabled out-of-the-box, but only if appointments are moved within the Scheduler. In this demo, appointments can be moved between the Scheduler  and a list. Follow the steps below to implement this functionality:\n\n\nConfigure the Scheduler\nIn the appointmentDragging object, implement the onAdd function (in which you should add an appointment) and the onRemove function (in which you should delete an appointment and create a corresponding list item).\n\n\nConfigure list items\nAttach an instance of the Draggable component to every list item. The component has the data property that can contain custom data. In this demo, it is an appointment's subject. Implement the onDragStart function in which you should pass the subject to the Scheduler where it is used to add new appointments.\n\n\nConfigure the list\nAttach another Draggable instance to the list which only serves as the drop target. Implement the onDragStart function to ensure the list cannot be dragged.\n\n\nAdd the controls to the same group\nTo enable drag and drop operations between the controls, assign the same value to the group property of the Scheduler's appointmentDragging object and both Draggable components.\n\n\n",
+  "name": "Custom Drag & Drop - DevExtreme Scheduler"
+}
