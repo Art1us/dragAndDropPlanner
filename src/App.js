@@ -6,9 +6,9 @@ import ScrollView from 'devextreme-react/scroll-view';
 
 import { appointments, tasks } from './data.js';
 
-const currentDate = new Date(2021, 3, 26);
-const views = [{ type: 'day', intervalCount: 3 }];
-const draggingGroupName = 'appointmentsGroup';
+const currentDate = new Date();
+const views = [{ type: 'day', intervalCount: 5 }];
+const draggingGroupName = '123';
 
 class App extends React.Component {
   constructor(props) {

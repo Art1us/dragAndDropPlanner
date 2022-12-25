@@ -20,6 +20,9 @@ export const tasks = [
   }, {
     text: 'Launch New Website',
   },
+  {
+    text: 'Клиент 1',
+  },
 ];
 
 export const appointments = [
@@ -51,3 +54,6 @@ export const appointments = [
     endDate: new Date('2021-04-29T20:30:00.000Z'),
   },
 ];
+
+
+
